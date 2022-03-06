@@ -173,3 +173,40 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+#Home-Page {
+  font-weight: bolder;
+}
+
+#Page2 {
+  font-weight: bolder;
+}
+
+#Page3 {
+  font-weight: bolder;
+}
+
+.tunnel {
+  width: 700px;
+  height: auto;
+}
+
+.silo {
+  width: 700px;
+  height: auto;
+}
+
+.street {
+  width: 700px;
+  height: auto;
+}
+
+.fam {
+  width: 700px;
+  height: auto;
+}
+
+.pucker {
+  width: 700px;
+  height: auto;
+}
