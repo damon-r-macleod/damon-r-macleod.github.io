@@ -210,3 +210,18 @@ nav a:hover {
   width: 700px;
   height: auto;
 }
+
+.home {
+  width: 500px;
+  height: 300px;
+}
+
+.content {
+  width: 500px;
+  height: 300px;
+}
+
+.about {
+  width: 500px;
+  height: 300px;
+}
