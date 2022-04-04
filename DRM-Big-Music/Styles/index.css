@@ -1,5 +1,5 @@
 /* HOME PAGE */
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Aldrich&family=Bungee&family=Bungee+Hairline&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Abel&family=Aldrich&family=Bungee&family=Bungee+Hairline&display=swap');
 
 body {
     background-color:  black;
@@ -12,10 +12,10 @@ a:link {
 
 a:hover {
     color: red;
-}
+} */
 
 /* header */
-
+/* 
 
 
 .home-link {
@@ -97,10 +97,10 @@ main {
 .test {
     grid-column: 2/3;
     grid-row: 2/3;
-}
+} */
 
 /* footer */
-footer {
+/* footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
@@ -135,8 +135,8 @@ footer {
 #site-plan-link {
     grid-column: 2/3;
     padding: 10px;
-}
+} */
 
 /* Fonts */
 
-/* CONTENT PAGE */
+/* CONTENT PAGE  */
