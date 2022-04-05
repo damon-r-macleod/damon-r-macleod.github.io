@@ -1,0 +1,189 @@
+/* HOME PAGE */
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Aldrich&family=Bungee&family=Bungee+Hairline&display=swap');
+
+body {
+    background-color:  black;
+    font-family: Bungee Hairline;
+}
+
+a:link {
+    color: white; 
+}
+
+a:hover {
+    color: red;
+}
+
+/* header */
+
+.home-link {
+    width: 150px;
+    align-items: center;
+    justify-items: center;
+    border-radius: 25px;
+
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+#content-link {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: white;
+    margin-left: 50px;
+    border-radius: 50px;
+    height: 75px;
+}
+
+#content-link:hover {
+    color: black;
+}
+
+
+#about-link {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: white;
+    margin-right: 50px;
+    border-radius: 50px;
+    height: 75px;
+    
+}
+
+#about-link:hover {
+    color: black;
+}
+
+#home-link {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+
+}
+
+/* main */
+main {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 1fr 2fr 2fr;
+}
+
+#page-opener {
+    color: white;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    padding-left: 100px;
+}
+
+#Pray {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding-left: 25px;
+}
+
+#Hourglass {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding-right: -100px;
+    padding-left: 25px;
+}
+
+#Arizona-Angel {
+    grid-column: 5/6;
+    grid-row: 2/3;
+    padding-right: 20px;
+}
+
+#youtube-link {
+    color: white;
+    grid-row: 3/4;
+    grid-column: 1/2;
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 125px;
+}
+
+
+#spotify {
+    color: white;
+    grid-row: 3/4;
+    grid-column: 1/2;
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 160px;
+}
+
+#spotify:hover {
+    color: red;
+}
+
+#apple-music {
+    color: white;
+    grid-row: 3/4;
+    grid-column: 1/2;
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 200px;
+}
+
+#apple-music:hover {
+    color: black;
+}
+
+/* footer */
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+#facebook {
+    width: 25px;
+    height: 25px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding-left: 300px;
+}
+
+#instagram {
+    width: 25px;
+    height: 25px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+}
+
+#gmail {
+    width: 25px;
+    height: 25px;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    padding-right: 300px;
+}
+
+#site-plan-link {
+    grid-column: 2/3;
+    padding: 10px;
+    color: white
+}
+
+#site-plan-link:hover {
+    color: red;
+}
